@@ -34,13 +34,9 @@ public class CareerPlan {
     public void setProposal_code(String proposal_code) {
         this.proposal_code = proposal_code;
     }
+
+    @Override
+    public String toString() {
+        return name; // This will be displayed in the spinner
+    }
 }
-
-
-
-
-
-
-
-
-
